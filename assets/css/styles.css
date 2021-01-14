@@ -1,0 +1,168 @@
+.navbar-brand {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+.nav-link {
+  font-size: 18px;
+  font-family: Archivo Narrow;
+  line-height: 24px;
+}
+
+h1 {
+  font-size: 34px;
+  line-height: 46px;
+}
+
+h1, p {
+  font-family: Open Sans;
+}
+
+.navbar-brand, h1 {
+  font-weight: bold;
+}
+
+footer {
+  line-height: 16px;
+}
+
+.footer-text {
+  font-weight: 600;
+}
+
+@media (min-width: 425px) {
+  .nav-link {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  footer {
+    font-size: 12px;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #E5E5E5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding-bottom: 150px !important;
+}
+
+main {
+  padding-top: 25px;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+header {
+  height: 70px;
+}
+
+.box {
+  height: 250px;
+  width: 150px;
+}
+
+footer {
+  padding: 20px;
+}
+
+.footer-text {
+  margin: 5px !important;
+}
+
+@media (min-width: 425px) {
+  .wrapper {
+    padding-bottom: 0;
+  }
+  header {
+    height: 70px;
+  }
+  .box {
+    height: 150px;
+    width: 150px;
+  }
+  footer {
+    padding: 0;
+    line-height: 44px;
+  }
+  .footer-text {
+    margin: 0 !important;
+  }
+}
+
+.wrapper > :first-child {
+  background-color: #F4F3EE;
+}
+
+.active {
+  color: #c32c72 !important;
+}
+
+.col-11.col-md-2 {
+  /*border: solid 3px #707070;*/
+  background-color: #F4F3EE;
+  border-radius: 10px;
+  margin: 2% 2%;
+}
+
+.box {
+  -webkit-box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.35);
+}
+
+.box__white, .box__white--border {
+  background-color: #fff !important;
+}
+
+.box__white--border {
+  border: solid 3px #c32c72 !important;
+}
+
+.box__pink, .box__pink--border {
+  border: solid 3px #fff !important;
+  background-color: #c32c72 !important;
+}
+
+.box__pink--border {
+  border: solid 3px #fff !important;
+}
+
+footer {
+  /*border: solid 3px #707070;*/
+  font-size: 0.8em;
+  color: #8d8d8d;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #fff;
+}
+
+@media (min-width: 425px) {
+  footer {
+    background-color: #F4F3EE;
+  }
+  .footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

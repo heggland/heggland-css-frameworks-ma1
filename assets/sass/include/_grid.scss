@@ -1,0 +1,31 @@
+.col-11.col-md-2 {
+  /*border: solid 3px #707070;*/
+  background-color: getColour(tertiary);
+  border-radius: 10px;
+  margin: 2% 2%;
+}
+
+.box {
+  box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.35);
+
+  &__white {
+    background-color: getColour(white) !important;
+    
+    &--border {
+      @extend .box__white;
+      border: solid 3px getColour(pink) !important;
+    }
+
+  }
+
+  &__pink {
+    border: solid 3px getColour(white)  !important;
+    background-color: getColour(pink) !important;
+    
+    &--border {
+      @extend .box__pink;
+      border: solid 3px getColour(white) !important;
+    }
+  }
+}
+

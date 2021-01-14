@@ -1,0 +1,41 @@
+.navbar-brand {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    font-family: getFont(secondary);
+    line-height: 24px;
+  }
+  
+  h1 {
+    font-size: 34px;
+    line-height: 46px;
+  }
+  
+  h1, p {
+    font-family: getFont(primary);
+  }
+
+  .navbar-brand, h1 {
+    font-weight: bold;
+  }
+
+  footer {
+    line-height: 16px;
+  }
+
+  .footer-text {
+    font-weight: 600;
+  }
+
+  @media (min-width: $mobile-width) {
+    .nav-link {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    footer {
+      font-size: 12px;
+    }
+  }

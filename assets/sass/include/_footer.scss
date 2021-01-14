@@ -1,0 +1,19 @@
+footer {
+  /*border: solid 3px #707070;*/
+  font-size: 0.8em;
+  color: getColour(grey);
+  margin: 0 auto;
+  width: 100%;
+  background-color: getColour(white);
+}
+
+@media (min-width: $mobile-width) {
+  footer {
+    background-color: getColour(tertiary);
+  }
+  .footer {
+    flex-direction: row;
+  }
+}
+
+

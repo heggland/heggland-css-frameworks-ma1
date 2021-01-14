@@ -1,0 +1,25 @@
+$mobile-width: 425px;
+
+$colours: (
+    primary: #E5E5E5,
+    secondary: #e5e5e5,
+    tertiary: #F4F3EE,
+    white: #fff,
+    black: #000,
+    grey: #8d8d8d,
+    pink: #c32c72
+    
+);
+
+@function getColour($colour) {
+    @return map-get($colours, $colour);
+}
+
+$fonts: (
+    primary: Open Sans,
+    secondary: Archivo Narrow
+);
+
+@function getFont($font) {
+    @return map-get($fonts, $font);
+}
