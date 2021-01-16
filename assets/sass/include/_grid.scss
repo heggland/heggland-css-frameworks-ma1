@@ -9,7 +9,7 @@
   box-shadow: 0px 6px 9px 0px rgba(0,0,0,0.35);
 
   &__white {
-    background-color: getColour(white) !important;
+    background-color: $white !important;
     
     &--border {
       @extend .box__white;
@@ -19,12 +19,12 @@
   }
 
   &__pink {
-    border: solid 3px getColour(white)  !important;
+    border: solid 3px $white  !important;
     background-color: getColour(pink) !important;
     
     &--border {
       @extend .box__pink;
-      border: solid 3px getColour(white) !important;
+      border: solid 3px $white !important;
     }
   }
 }

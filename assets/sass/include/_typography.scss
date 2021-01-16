@@ -5,7 +5,7 @@
   
   .nav-link {
     font-size: 18px;
-    font-family: getFont(secondary);
+    font-family: $secondary;
     line-height: 24px;
   }
   
@@ -15,7 +15,8 @@
   }
   
   h1, p {
-    font-family: getFont(primary);
+    font-family: $primary;
+    color: black;
   }
 
   .navbar-brand, h1 {

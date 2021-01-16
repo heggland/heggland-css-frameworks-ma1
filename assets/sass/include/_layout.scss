@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-color: getColour(primary);
+  background-color: $primary;
   display: flex;
   flex-direction: column;
 }
